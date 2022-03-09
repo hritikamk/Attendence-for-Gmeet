@@ -2,7 +2,7 @@
 
 ## Official Download Link
 
-https://chrome.google.com/webstore/detail/attendance-for-google-mee/gioogehddfnceeihfoeencjbhggblkkd
+// to be added
 
 ## Description
 
