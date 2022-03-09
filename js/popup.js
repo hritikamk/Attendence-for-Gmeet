@@ -86,13 +86,13 @@
 
     document.getElementById('docs').addEventListener('click', () => {
         chrome.tabs.create({
-            url: 'https://github.com/tytot/attendance-for-google-meet#usage',
+            url: 'https://github.com/hritikamk/Attendence-for-Gmeet#readme',
         })
     })
     document.getElementById('contact').addEventListener('click', () => {
         chrome.tabs.create({
             url:
-                'mailto:tyleradit@gmail.com?subject=Regarding%20the%20Attendance%20for%20Google%20Meet%20Chrome%20Extension',
+                'mailto:hritikak@protonmail.com?subject=Regarding%20the%20Attendance%20for%20Google%20Meet%20Chrome%20Extension',
         })
     })
     for (const butt of document.getElementsByClassName('help')) {
