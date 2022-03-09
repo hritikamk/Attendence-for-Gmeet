@@ -1,0 +1,245 @@
+:root {
+    --mdc-theme-primary: var(--mdc-theme-secondary) !important;
+}
+
+html {
+    min-width: 500px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#header {
+    background-color: #058d80;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+#title {
+    max-width: 150px;
+    font-size: 20px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 4px;
+    text-align: left;
+}
+
+#meta {
+    flex-grow: 1;
+    font-size: 12px;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-right: 16px;
+    text-align: right;
+    min-width: max-content;
+}
+
+#version {
+    font-style: italic;
+}
+
+#content {
+    margin-top: 12px;
+}
+
+.mdc-dialog__title {
+    font-family: 'Inter', Arial, sans-serif !important;
+    letter-spacing: normal !important;
+}
+
+.mdc-dialog__content {
+    text-align: left;
+    font-family: 'Inter', Arial, sans-serif !important;
+    letter-spacing: normal !important;
+}
+
+.mdc-dialog__surface {
+    border-radius: 8px !important;
+}
+
+.mdc-button--raised,
+.mdc-button--outlined {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.mdc-button--outlined {
+    background-color: white !important;
+}
+
+#lang {
+    position: fixed;
+    top: 72px;
+    right: 4px;
+    color: var(--mdc-theme-primary);
+}
+
+#lang-title {
+    font-family: 'Inter', Arial, sans-serif;
+    color: var(--mdc-theme-primary);
+}
+
+.mdc-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+hr.solid {
+    margin-block-start: 6px;
+    margin-block-end: 0;
+    border: 0;
+    height: 0.5px;
+    background: var(--mdc-theme-primary);
+}
+
+hr.dashed {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+    border: 0;
+    border-top: 0.5px dashed var(--mdc-theme-primary);
+}
+
+hr.divider {
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    width: 294px;
+    border: 0;
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.16);
+}
+
+.relative {
+    position: relative;
+}
+
+.help {
+    position: absolute !important;
+    left: calc(50% + 120px);
+    width: 36px !important;
+    height: 36px !important;
+    padding: 2px 0 0 0 !important;
+    color: var(--mdc-theme-primary) !important;
+    --mdc-ripple-color: var(--mdc-theme-primary) !important;
+}
+.help i {
+    font-size: 18px;
+}
+
+.description {
+    max-height: 100px;
+    transition: max-height 0.25s;
+    width: 294px;
+    margin: 0 auto;
+}
+.description p {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 2px 0 8px 0;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#more-options {
+    max-height: 200px;
+    transition: max-height 0.25s;
+}
+
+.collapsed {
+    max-height: 0 !important;
+    overflow: hidden;
+}
+
+#expand {
+    width: 100%;
+}
+
+#expand .mdc-button__ripple {
+    border-radius: 0;
+}
+
+.mdc-button__label:not(.mdc-dialog__button .mdc-button__label) {
+    width: 240px;
+}
+
+.bmc-button img {
+    height: 34px !important;
+    width: 35px !important;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    padding: 7px 15px 7px 10px !important;
+    line-height: 35px !important;
+    height: 51px !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    color: #ffffff !important;
+    background-color: #ff813f !important;
+    border-radius: 8px !important;
+    border: 1px solid transparent !important;
+    font-size: 24px !important;
+    letter-spacing: 0.6px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    margin: 0 auto !important;
+    margin-bottom: 8px !important;
+    font-family: 'Cookie', cursive !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    text-decoration: none !important;
+    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    opacity: 0.85 !important;
+    color: #ffffff !important;
+}
+
+.mdc-switch {
+    top: 4px;
+    left: -4px;
+}
+
+.switch-label {
+    width: 240px;
+    left: -9px;
+}
+
+.mdc-text-field {
+    top: 2px;
+    left: -4px;
+    width: 50px !important;
+    height: 32px !important;
+    padding: 0 8px !important;
+    text-align: center !important;
+}
+
+.mdc-text-field__input {
+    color: var(--mdc-theme-primary) !important;
+}
+
+.text-field-label {
+    cursor: default !important;
+}
+.text-field-suffix {
+    cursor: default !important;
+    min-width: auto !important;
+    left: -8px;
+}
