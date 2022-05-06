@@ -99,7 +99,7 @@ Our extension may link to external sites that are not operated by us. Please be 
 
 You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
 
-Your continued use of our extension will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at tyleradit@gmail.com.
+Your continued use of our extension will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at hritikak@pm.me.
 
 This policy is effective as of 21 August 2020.
 
